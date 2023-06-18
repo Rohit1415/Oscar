@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Rohit1415.github.io/hbseome",
+  "homepage": "http://Rohit1415.github.io/home",
   "name": "oscar-project",
   "version": "0.1.0",
   "private": true,
@@ -26,12 +26,13 @@
     "react-viewer": "^3.2.2",
     "reactstrap": "^9.1.6",
     "slick-carousel": "^1.8.1",
+    "sweetalert2": "^11.7.12",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
